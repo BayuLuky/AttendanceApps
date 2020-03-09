@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rippleBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:rb_color="@android:color/white"
+    app:rb_radius="32dp"
+    app:rb_rippleAmount="6"
+    app:rb_duration="3000"
+    app:rb_scale="6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check In!"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:id="@+id/tvScanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scanning..."
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewCheckIn"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:src="@drawable/ic_person_24dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/tvCheckInSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check In Success"
+        android:textSize="16dp"
+        android:background="@drawable/bg_checkin_success"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp"
+        android:paddingRight="68dp"
+        android:paddingLeft="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:visibility="gone"
+        />
+
+
+</com.skyfishjy.library.RippleBackground>

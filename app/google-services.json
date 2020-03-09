@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957459794073",
+    "firebase_url": "https://aplikasi-absen-online.firebaseio.com",
+    "project_id": "aplikasi-absen-online",
+    "storage_bucket": "aplikasi-absen-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957459794073:android:464a299d7b9892cc9b1008",
+        "android_client_info": {
+          "package_name": "com.example.attendanceapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957459794073-b2eeqroder67cu5mlg5rbgb13gfrjhio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT_mIGE5cZs23KqQMuZ4kqz7XO4RaBZmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957459794073-b2eeqroder67cu5mlg5rbgb13gfrjhio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
